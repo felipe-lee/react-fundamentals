@@ -17,22 +17,25 @@ const sharedStyle = {fontStyle: 'italic'}
 const smallBox = (
   <div
     className="box box--small"
-    style={{...sharedStyle, backgroundColor: 'lightblue'}}>
-      small lightblue box
+    style={{...sharedStyle, backgroundColor: 'lightblue'}}
+  >
+    small lightblue box
   </div>
 )
 const mediumBox = (
   <div
     className="box box--medium"
-    style={{...sharedStyle, backgroundColor: 'pink'}}>
-      medium pink box
+    style={{...sharedStyle, backgroundColor: 'pink'}}
+  >
+    medium pink box
   </div>
 )
 const largeBox = (
   <div
     className="box box--large"
-    style={{...sharedStyle, backgroundColor: 'orange'}}>
-      large orange box
+    style={{...sharedStyle, backgroundColor: 'orange'}}
+  >
+    large orange box
   </div>
 )
 
